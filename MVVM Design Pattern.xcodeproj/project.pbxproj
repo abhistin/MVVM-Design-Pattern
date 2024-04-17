@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		FEA1E59C2BCFA69E004A4C94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA1E59B2BCFA69E004A4C94 /* AppDelegate.swift */; };
 		FEA1E59E2BCFA69E004A4C94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA1E59D2BCFA69E004A4C94 /* SceneDelegate.swift */; };
-		FEA1E5A02BCFA69E004A4C94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA1E59F2BCFA69E004A4C94 /* ViewController.swift */; };
 		FEA1E5A32BCFA69E004A4C94 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FEA1E5A22BCFA69E004A4C94 /* Base */; };
 		FEA1E5A52BCFA6A0004A4C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA1E5A42BCFA6A0004A4C94 /* Assets.xcassets */; };
 		FEA1E5A82BCFA6A0004A4C94 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FEA1E5A72BCFA6A0004A4C94 /* Base */; };
 		FEA1E5B32BCFA6A0004A4C94 /* MVVM_Design_PatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA1E5B22BCFA6A0004A4C94 /* MVVM_Design_PatternTests.swift */; };
 		FEA1E5BD2BCFA6A0004A4C94 /* MVVM_Design_PatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA1E5BC2BCFA6A0004A4C94 /* MVVM_Design_PatternUITests.swift */; };
 		FEA1E5BF2BCFA6A0004A4C94 /* MVVM_Design_PatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA1E5BE2BCFA6A0004A4C94 /* MVVM_Design_PatternUITestsLaunchTests.swift */; };
+		FEA1E5D72BCFA7D1004A4C94 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA1E5D62BCFA7D1004A4C94 /* Product.swift */; };
+		FEA1E5D92BCFAC06004A4C94 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA1E5D82BCFAC06004A4C94 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		FEA1E5982BCFA69E004A4C94 /* MVVM Design Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Design Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA1E59B2BCFA69E004A4C94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEA1E59D2BCFA69E004A4C94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FEA1E59F2BCFA69E004A4C94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FEA1E5A22BCFA69E004A4C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEA1E5A42BCFA6A0004A4C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEA1E5A72BCFA6A0004A4C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		FEA1E5B82BCFA6A0004A4C94 /* MVVM Design PatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM Design PatternUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA1E5BC2BCFA6A0004A4C94 /* MVVM_Design_PatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Design_PatternUITests.swift; sourceTree = "<group>"; };
 		FEA1E5BE2BCFA6A0004A4C94 /* MVVM_Design_PatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Design_PatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEA1E5D62BCFA7D1004A4C94 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		FEA1E5D82BCFAC06004A4C94 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,13 @@
 		FEA1E59A2BCFA69E004A4C94 /* MVVM Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
-				FEA1E59B2BCFA69E004A4C94 /* AppDelegate.swift */,
-				FEA1E59D2BCFA69E004A4C94 /* SceneDelegate.swift */,
-				FEA1E59F2BCFA69E004A4C94 /* ViewController.swift */,
-				FEA1E5A12BCFA69E004A4C94 /* Main.storyboard */,
-				FEA1E5A42BCFA6A0004A4C94 /* Assets.xcassets */,
-				FEA1E5A62BCFA6A0004A4C94 /* LaunchScreen.storyboard */,
+				FEA1E5D12BCFA71B004A4C94 /* Application */,
+				FEA1E5D02BCFA719004A4C94 /* Constants */,
+				FEA1E5CF2BCFA716004A4C94 /* Extensions */,
+				FEA1E5CE2BCFA713004A4C94 /* Helper */,
+				FEA1E5CD2BCFA70E004A4C94 /* Screen */,
+				FEA1E5CC2BCFA70C004A4C94 /* Storyboard */,
+				FEA1E5CB2BCFA709004A4C94 /* Resources */,
 				FEA1E5A92BCFA6A0004A4C94 /* Info.plist */,
 			);
 			path = "MVVM Design Pattern";
@@ -125,6 +128,94 @@
 				FEA1E5BE2BCFA6A0004A4C94 /* MVVM_Design_PatternUITestsLaunchTests.swift */,
 			);
 			path = "MVVM Design PatternUITests";
+			sourceTree = "<group>";
+		};
+		FEA1E5CB2BCFA709004A4C94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FEA1E5A42BCFA6A0004A4C94 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FEA1E5CC2BCFA70C004A4C94 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FEA1E5A12BCFA69E004A4C94 /* Main.storyboard */,
+				FEA1E5A62BCFA6A0004A4C94 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FEA1E5CD2BCFA70E004A4C94 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FEA1E5D22BCFA769004A4C94 /* Product */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		FEA1E5CE2BCFA713004A4C94 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FEA1E5D82BCFAC06004A4C94 /* APIManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FEA1E5CF2BCFA716004A4C94 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FEA1E5D02BCFA719004A4C94 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FEA1E5D12BCFA71B004A4C94 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FEA1E59B2BCFA69E004A4C94 /* AppDelegate.swift */,
+				FEA1E59D2BCFA69E004A4C94 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FEA1E5D22BCFA769004A4C94 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				FEA1E5D32BCFA770004A4C94 /* Model */,
+				FEA1E5D42BCFA776004A4C94 /* View */,
+				FEA1E5D52BCFA77A004A4C94 /* ViewModel */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		FEA1E5D32BCFA770004A4C94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEA1E5D62BCFA7D1004A4C94 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FEA1E5D42BCFA776004A4C94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEA1E5D52BCFA77A004A4C94 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +349,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEA1E5A02BCFA69E004A4C94 /* ViewController.swift in Sources */,
+				FEA1E5D92BCFAC06004A4C94 /* APIManager.swift in Sources */,
 				FEA1E59C2BCFA69E004A4C94 /* AppDelegate.swift in Sources */,
 				FEA1E59E2BCFA69E004A4C94 /* SceneDelegate.swift in Sources */,
+				FEA1E5D72BCFA7D1004A4C94 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
